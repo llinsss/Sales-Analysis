@@ -15,3 +15,10 @@ The dataset (`sales_data.csv`) contains the following columns:
 1. **Total Revenue**:
    ```sql
    SELECT SUM(quantity * price) AS total_revenue FROM sales;
+
+   ## Streamlit Dashboard
+To visualize the sales data interactively, run the Streamlit app:
+
+1. Install Streamlit:
+   ```bash
+   pip install streamlit
